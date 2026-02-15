@@ -78,4 +78,4 @@ def register_socket_events(socketio):
 
         except Exception as e:
             print("[Error] Failed to process live data:", e)
-            emit("ml_response", {"error": str(e)})
+            emit("ml_response", {"ml_response": str(e)})
