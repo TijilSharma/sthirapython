@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 SYMBOL = "USDCUSDT"
 INTERVAL = "1m"
 OUTPUT_FILE = "ohclvNew.csv"
-BASE_URL = "https://api.binance.com"
+BASE_URL = "https://api.binance.us"
 SESSION = requests.Session()
 WORKERS = 4  # Adjust depending on your system
 
