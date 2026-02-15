@@ -1,0 +1,79 @@
+# ----------------------------
+# Python / Virtual Environment
+# ----------------------------
+venv/
+.env
+newer
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+logs/
+*.out
+*.err
+
+# ----------------------------
+# Runtime CSVs (generated at server start)
+# ----------------------------
+# Ignore all CSVs unless you explicitly want to track static config CSVs
+*.csv
+csv/
+data/generated/*.csv
+tmp/
+
+# ----------------------------
+# IDE / Editor files
+# ----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Jupyter Notebooks
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+*.bak
+*.tmp
+*.orig
+
+# ----------------------------
+# Optional: Python cache & coverage
+# ----------------------------
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# ----------------------------
+# Node / JS (if you have node modules for SocketIO client)
+# ----------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------------
+# Render / Deployment temp
+# ----------------------------
+*.pid
+*.sock
