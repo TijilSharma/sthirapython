@@ -44,6 +44,6 @@ from controller.merge_raw_data import merge_raw_data
 # ----------------------------
 # Run server
 # ----------------------------
-if __name__ == "__main__":
-    print(f"[Server] Starting on 0.0.0.0:{PORT}")
-    socketio.run(app, host="0.0.0.0", port=PORT)
+# if __name__ == "__main__":
+#     print(f"[Server] Starting on 0.0.0.0:{PORT}")
+#     socketio.run(app, host="0.0.0.0", port=PORT)

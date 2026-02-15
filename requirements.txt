@@ -13,3 +13,5 @@ flask-socketio==5.6.0
 python-dotenv==1.0.1
 psycopg2-binary==2.9.11
 requests==2.32.5
+eventlet
+gunicorn
